@@ -19,6 +19,7 @@ export default function Home() {
           </a>
         </div>
         <LinkComponent title="Github" url="https://github.com/shashankaz" />
+        <LinkComponent title="Projects" url="https://theplatform.vercel.app/" />
         <LinkComponent
           title="CodeChef"
           url="https://www.codechef.com/users/o_r_e_o"
@@ -26,6 +27,10 @@ export default function Home() {
         <LinkComponent
           title="Codeforces"
           url="https://codeforces.com/profile/shashankaz"
+        />
+        <LinkComponent
+          title="LeetCode"
+          url="https://leetcode.com/shashankaz/"
         />
       </div>
     </>
