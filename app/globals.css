@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
   background-color: #eee;
 }
 
@@ -31,8 +31,9 @@ html{
   border-radius: 30px;
   padding: 10px;
   color: #000000;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 #social-bar {

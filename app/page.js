@@ -18,7 +18,15 @@ export default function Home() {
             <Image src="/twitter.png" height={30} width={30} id="social" />
           </a>
         </div>
-        <LinkComponent title="Github" url="https://github.com/" />
+        <LinkComponent title="Github" url="https://github.com/shashankaz" />
+        <LinkComponent
+          title="CodeChef"
+          url="https://www.codechef.com/users/o_r_e_o"
+        />
+        <LinkComponent
+          title="Codeforces"
+          url="https://codeforces.com/profile/shashankaz"
+        />
       </div>
     </>
   );
