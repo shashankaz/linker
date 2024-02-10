@@ -10,6 +10,10 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  background-image: url("../public/background.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(238, 238, 238, 0.9);
 }
 
 #logo {
@@ -18,7 +22,7 @@ html {
 }
 
 #container h1 {
-  color: #000000;
+  color: #000;
   font-size: 1.3rem;
   font-weight: 700;
   margin: 20px;
@@ -28,15 +32,16 @@ html {
   display: flex;
   gap: 15px;
   margin: 10px 0 20px;
+  /* filter: invert(100%); */
 }
 
 #box {
   text-align: center;
   width: 350px;
-  border: 2px solid #000000;
+  border: 2px solid #000;
   border-radius: 30px;
   padding: 10px;
-  color: #000000;
+  color: #000;
   font-size: 1.1rem;
   margin-bottom: 10px;
   font-weight: 500;
